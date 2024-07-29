@@ -1,0 +1,43 @@
+.container{
+    background-color:rgb(232, 248, 248);
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+input{
+    font-size: 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.weather-cards{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.weather-card{
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(207, 206, 206);
+}
